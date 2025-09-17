@@ -5,7 +5,7 @@
         if (url.indexOf("?pc") < 0) {
             try {
                 if (typeof siteName !== "undefined") {
-                    window.location.href = "https://m.3673.com" + siteName
+                    window.location.href = "http://156.254.172.131" + siteName
                 }
             } catch (e) {}
         }
